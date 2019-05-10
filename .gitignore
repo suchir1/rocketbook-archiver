@@ -1,0 +1,6 @@
+venv
+credentials.json
+token.pickle
+client_secrets.json
+mycreds.txt
+.vscode
