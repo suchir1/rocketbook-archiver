@@ -71,8 +71,9 @@ def getAndUploadAttachments(service, user_id, msg_id, prefix=""):
                     att=service.users().messages().attachments().get(userId=user_id, messageId=msg_id,id=att_id).execute()
                     data=att['data']
                 file_data = base64.urlsafe_b64decode(data.encode('UTF-8'))
-                path = prefix+part['filename']
-
+                path = "pdfs/"+prefix+part['filename']
+                if not os.path.exists("pdfs"):
+                    os.makedirs("pdfs")
                 with open(path, 'wb') as f:
                     f.write(file_data)
                 
@@ -83,7 +84,8 @@ def getAndUploadAttachments(service, user_id, msg_id, prefix=""):
                 file_drive.SetContentFile(path)
                 file_drive.Upload()
                 
-                os.remove(path)
+
+                
                 msg_labels = {
                     "addLabelIds": [],
                     "removeLabelIds": ["UNREAD"]
