@@ -20,7 +20,7 @@ import email
 #To get folder id: Just click get shareable link, and then the long id string is your folder id!
 
 symbolToFolderId = {'apple':"13-pH-CGS5oKSLLorIURKY6BRVcXG2eoN", #CS230/Rocketbook
-'bell':"13-pH-CGS5oKSLLorIURKY6BRVcXG2eoN", #CS230/Rocketbook
+'bell':"1E0mboIKTskKikAmmDfkwTjiPaZOVgPTh", #CS230/Rocketbook
 'clover':"1eq3vyCUtpHHWlYkpU4UvoM1tdj5yCCwm", #CS230
 'diamond':"13-pH-CGS5oKSLLorIURKY6BRVcXG2eoN", #CS230/Rocketbook
 'star':"1eq3vyCUtpHHWlYkpU4UvoM1tdj5yCCwm", #CS230
