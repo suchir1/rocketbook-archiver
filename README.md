@@ -8,6 +8,8 @@ Install requirements via `pip3 install -r requirements.txt`
 
 Gather credentials as described in the credentials section below.
 
+Edit the symbol-folder mapping in uploadNotes.py as described in the file.
+
 Then run `python3 uploadNotes.py`
 
 ### Credentials
