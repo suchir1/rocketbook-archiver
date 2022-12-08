@@ -1,5 +1,5 @@
 cachetools==3.1.0
-certifi==2019.3.9
+certifi==2022.12.7
 chardet==3.0.4
 gmail-api-wrapper==0.1.1a3
 google-api-python-client==1.7.8
